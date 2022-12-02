@@ -1,0 +1,28 @@
+Task1: Upload multiple images and show in container with checkbox
+	When user select image and click on delete button then it will show popup with count of selected image with confirm message.
+	Delete selected images if click "ok" .
+
+Task2:Create database and table with given sql
+
+atg_vpn_data.sql
+atg_vpn_color_mapping.sql
+data.json
+
+Parse the json data  and save into db
+
+First table:
+
+entity_id: primary key
+style number : vpn
+name:name
+styleDescription:Description
+colorCode: size_and_fit
+fabricContent: fabricCopyBullets
+rest same as column in DB and json Data
+
+
+Second Table:
+
+mapping_id:primary_key
+vpn, colorCode: unique
+in_images: store images in comma separeted
